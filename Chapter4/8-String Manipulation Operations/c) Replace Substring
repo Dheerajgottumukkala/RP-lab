@@ -1,0 +1,5 @@
+fn main() {
+    let s = String::from("I love Java");
+    let replaced = s.replace("Java", "Rust");
+    println!("After Replace: {}", replaced);
+}
