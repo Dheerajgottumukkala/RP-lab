@@ -1,0 +1,5 @@
+fn main() {
+    let s = String::from("Rust Programming");
+    println!("String: {}", s);
+    println!("Capacity: {}", s.capacity());
+}
